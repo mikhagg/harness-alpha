@@ -16,5 +16,6 @@ spec:
     spec:
       containers:
       - name: mikhagg
+        image: <+artifacts.primary.image>
         ports:
         - containerPort: 80
