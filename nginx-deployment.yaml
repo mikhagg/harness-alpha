@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: mikhagg
-        image: nginx:1.14.2
+        image: nginx:mainline-perl
         ports:
         - containerPort: 80
